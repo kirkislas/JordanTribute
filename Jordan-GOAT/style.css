@@ -112,6 +112,7 @@ header.sticky .navigation li a {
 
 header .navigation li a:hover {
   color: #ce1141;
+  transition: 0.8s;
 }
 
 section {
@@ -309,6 +310,8 @@ section {
 .contact {
   background: url(images/jordan-bg3.jpg);
   background-size: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 .contactForm {
